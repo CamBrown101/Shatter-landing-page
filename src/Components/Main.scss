@@ -9,8 +9,8 @@
     width: 80vw;
   }
   .logo:hover {
-    -webkit-animation: spin 3s infinite;
-    animation: spin 3s infinite;
+    -webkit-animation: spin 4s infinite;
+    animation: spin 4s infinite;
   }
 
   @-webkit-keyframes spin {
@@ -48,9 +48,11 @@
       margin-top: 10px;
       padding: 10px 0 10px 0;
       border: none;
+      background-color: $blue;
+      color: $white;
     }
     button:hover {
-      background-color: pink;
+      background-color: $pink;
     }
   }
 }
