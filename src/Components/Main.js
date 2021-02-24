@@ -8,7 +8,7 @@ const Main = () => {
       <div>
         <img className="logo" src={logo}></img>
       </div>
-      <h3>THERE IS NO VICTORY WITHOUT A BATTLE.</h3>
+      <h3 className="quote">THERE IS NO VICTORY WITHOUT A BATTLE.</h3>
       <form className="form-container">
         <input placeholder="Enter Email Address"></input>
         <button type="submit">LEVEL UP</button>
