@@ -6,17 +6,19 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 15%;
+  font-family: HKGrotesk;
+  perspective: 500px;
+
   .quote {
     margin: 0;
     margin-bottom: 2%;
-    font-family: HKGrotesk;
   }
   .logo {
     width: 80vw;
   }
   .logo:hover {
     -webkit-animation: spin 4s infinite;
-    animation: spin 4s infinite;
+    animation: spin 4s linear infinite;
   }
 
   @-webkit-keyframes spin {
@@ -50,12 +52,13 @@
       width: 40vw;
     }
     button {
-      width: 80%;
       margin-top: 10px;
-      padding: 10px 0 10px 0;
+      padding: 20px 50px 20px 50px;
       border: none;
       background-color: $blue;
       color: $white;
+      font-size: 20px;
+      font-family: HKGrotesk;
     }
     button:hover {
       background-color: $pink;
