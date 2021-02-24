@@ -3,14 +3,18 @@ import './Main.scss';
 import logo from '../images/group1_fixed.png';
 
 const Main = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('!!');
+  };
   return (
     <div className="main-container">
       <div>
-        <img className="logo" src={logo}></img>
+        <img alt="Shatter Logo" className="logo" src={logo}></img>
       </div>
       <h3 className="quote">THERE IS NO VICTORY WITHOUT A BATTLE.</h3>
-      <form className="form-container">
-        <input placeholder="Enter Email Address"></input>
+      <form className="form-container" onSubmit={handleSubmit}>
+        <input type="email" placeholder="Enter Email Address"></input>
         <button type="submit">LEVEL UP</button>
       </form>
     </div>
