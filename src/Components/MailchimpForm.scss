@@ -24,3 +24,17 @@
     background-color: $pink;
   }
 }
+@media screen and (max-width: 600px) {
+  .mailchimp-form {
+    input {
+      height: 30px;
+      width: 80%;
+    }
+    button {
+      padding: 15px 20px 15px 20px;
+    }
+    button:active {
+      background-color: $pink;
+    }
+  }
+}
