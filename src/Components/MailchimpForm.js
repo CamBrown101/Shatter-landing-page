@@ -20,7 +20,7 @@ export const MailchimpForm = () => {
         error: 'An unexpected internal error has occurred.',
         empty: 'You must write an e-mail.',
         duplicate: 'Email already subscribed!',
-        button: 'LEVEL UP',
+        button: 'LEVEL UP!',
       }}
       // Add a personalized class
       className="mailchimp-form"
