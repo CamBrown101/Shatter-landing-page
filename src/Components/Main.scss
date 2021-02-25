@@ -7,7 +7,7 @@
   align-items: center;
   margin-bottom: 15%;
   font-family: HKGrotesk;
-  perspective: 500px;
+  perspective: 600px;
   background-color: $white;
 
   .quote {
@@ -16,7 +16,7 @@
     font-size: 40px;
   }
   .logo {
-    height: 40vh;
+    height: 30vh;
   }
   .logo:hover {
     -webkit-animation: spin 4s infinite;
