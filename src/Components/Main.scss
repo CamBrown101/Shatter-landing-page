@@ -19,7 +19,7 @@
     margin-right: 2%;
   }
   .logo {
-    height: 30vh;
+    height: 40vh;
     margin-bottom: 20px;
   }
   .logo:hover {
@@ -54,7 +54,7 @@
 @media screen and (max-width: 600px) {
   .main-container {
     .logo {
-      height: 20vh;
+      height: 25vh;
     }
     .quote {
       font-size: 20px;
@@ -65,7 +65,7 @@
 @media screen and (max-width: 375px) {
   .main-container {
     .logo {
-      height: 15vh;
+      height: 20vh;
     }
     .quote {
       font-size: 15px;
