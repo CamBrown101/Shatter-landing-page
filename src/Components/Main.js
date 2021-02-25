@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.scss';
-import logo from '../images/group1_fixed_trimmed.png';
+import logo from '../images/AI_Shatter_Vertical Logo-01-BnW_trimmed.png';
 import { MailchimpForm } from './MailchimpForm';
 
 const Main = () => {
