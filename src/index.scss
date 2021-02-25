@@ -1,3 +1,4 @@
+@import './variables';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,4 +10,28 @@ body {
 }
 #root {
   height: 100vh;
+}
+.mailchimp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  button {
+    margin-top: 10px;
+    padding: 20px 50px 20px 50px;
+    border: none;
+    background-color: $blue;
+    color: $white;
+    font-size: 20px;
+    font-family: HKGrotesk;
+  }
+  button:hover {
+    background-color: $pink;
+  }
 }
