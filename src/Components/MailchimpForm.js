@@ -16,7 +16,7 @@ export const MailchimpForm = () => {
       ]}
       messages={{
         sending: 'Sending...',
-        success: 'Thank you for subscribing!',
+        success: `Success! You've been added to the Shatter community`,
         error: 'An unexpected internal error has occurred.',
         empty: 'You must write an e-mail.',
         duplicate: 'Email already subscribed!',
