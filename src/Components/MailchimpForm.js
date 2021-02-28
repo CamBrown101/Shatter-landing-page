@@ -29,7 +29,7 @@ export const MailchimpForm = () => {
           color: 'black',
         },
         successMsg: {
-          color: '#212469',
+          color: 'white',
         },
         duplicateMsg: {
           color: '#fcae18',
@@ -41,5 +41,3 @@ export const MailchimpForm = () => {
     />
   );
 };
-
-// action="https://gmail.us7.list-manage.com/subscribe/post?u=5595f7c2f6c6cf0ae234d0d4f&amp;id=04a5456c18" method="post" id="mc-embedded-subscribe-form"
