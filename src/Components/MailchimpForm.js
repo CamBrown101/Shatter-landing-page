@@ -22,7 +22,6 @@ export const MailchimpForm = () => {
         duplicate: 'Email already subscribed!',
         button: 'LEVEL UP!',
       }}
-      // Add a personalized class
       className="mailchimp-form"
       styles={{
         sendingMsg: {
